@@ -1,0 +1,9 @@
+<p ng-if='error'>{{ error }}</p>
+<div ng-if='locations'>
+  <ul ng-repeat='location in locations'>
+    <li>{{ location.name }} in {{ location.city }}</li>
+  </ul>
+</div>
+
+<button ng-click='getLocations()'>Get them!</button>
+<button ng-click='clearList()'>Clear them!</button>

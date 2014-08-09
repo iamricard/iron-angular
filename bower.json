@@ -1,0 +1,11 @@
+{
+  "name": "angular-meet-me",
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.6.2",
+    "jquery": "~1.11.0",
+    "angular": "~1.2.21",
+    "angular-route": "~1.2.21"
+  },
+  "devDependencies": {}
+}
